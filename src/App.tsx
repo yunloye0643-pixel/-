@@ -61,8 +61,8 @@ const Hero = () => (
         <div className="inline-block px-4 py-1.5 bg-primary-container text-on-primary-container rounded-full text-[10px] font-bold uppercase tracking-[0.2em]">
           Premium Floral Service
         </div>
-        <h1 className="text-5xl md:text-8xl lg:text-9xl font-serif text-surface leading-[0.9] font-light tracking-tighter whitespace-nowrap">
-          Caris <span className="italic font-normal text-secondary-container">Flower</span>
+        <h1 className="text-5xl md:text-8xl lg:text-9xl font-luxury text-surface leading-[0.9] font-light tracking-tighter whitespace-nowrap">
+          Caris <span className="italic font-medium text-secondary-container">Flower</span>
           <div className="text-[28px] md:text-[36px] mt-8 font-sans font-normal text-[#fba70e] tracking-wide whitespace-normal">
             화환 전국 꽃배달 전문점
           </div>
@@ -87,10 +87,10 @@ const Hero = () => (
       </motion.div>
       <div className="hidden lg:flex col-span-5 relative justify-center">
         <motion.div 
-          initial={{ opacity: 0, rotate: 10, scale: 0.9 }}
-          animate={{ opacity: 1, rotate: 3, scale: 1 }}
+          initial={{ opacity: 0, rotate: 12, scale: 0.8 }}
+          animate={{ opacity: 1, rotate: 12, scale: 0.9 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="relative w-full aspect-[4/5] bg-surface-container-low rounded-3xl overflow-hidden shadow-2xl"
+          className="relative w-[85%] aspect-[4/5] bg-surface-container-low rounded-3xl overflow-hidden shadow-2xl"
         >
           <img 
             src="https://images.unsplash.com/photo-1676872718664-25dc528a9228?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fCVFQSVCMiVCMCVFRCU5OCVCQyVFQyU4QiU5RCUyMCVFRCU5OSU5NCVFRCU5OSU5OHxlbnwwfHwwfHx8MA%3D%3D" 
